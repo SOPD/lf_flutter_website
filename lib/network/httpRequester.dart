@@ -1,5 +1,7 @@
 import 'dart:html' as html;
 import 'package:flutterwebtest/tools/models.dart';
+import 'dart:convert';
+import 'package:lfklinewidget/kLineModel.dart';
 class GlobalRequester {
 
 //单例方法
@@ -35,18 +37,30 @@ class GlobalRequester {
   }
 
   Future<List<MarkdownListModel>> requestMarkdownList() async {
+   final  List<MarkdownListModel> list = [];
+    String resp = await html.HttpRequest.getString(host + 'api/filelist');
 
-   // String resp = await html.HttpRequest.getString(host + filename);
-   List<MarkdownListModel> list= [MarkdownListModel(fileName: "Test.md",description: "一串说明文字-----TEXT",title: "测试_kline文章"),
-                                  MarkdownListModel(fileName: "test2.md",description: "一串说明文字-----TEXT",title: "测试_ios_金仕达...")];
+    final jsonList = json.decode(resp);
+    for(var i = 0 ; i < jsonList.length;i++){
+       list.add(MarkdownListModel(fileName: jsonList[i],description: "一串说明文字-----TEXT",title: jsonList[i]));
+    }
     return list;
 
   }
-  Future<String> requestKline(String year,String code) async {
+  Future<List<KLineModel>> requestKline(String year,String code) async {
 
+    final List<KLineModel> resultList = [];
     String resp = await html.HttpRequest.getString(host + 'klinedata/'+year + '/' + code + '.json');
 
-    return resp;
+
+    final jsonMap = json.decode(resp);
+    final result = jsonMap['data'];
+    for(var i = 0 ; i < result.length;i++){
+      final item = result[i];
+      final KLineModel model =   KLineModel(time: item[0],open:item[1] ,close: item[2],top: item[3],bottom: item[4],vol: item[5] / 100000000 );
+      resultList.add(model);
+    }
+    return resultList;
 
   }
 }
