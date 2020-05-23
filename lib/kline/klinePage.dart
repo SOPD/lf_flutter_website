@@ -22,17 +22,22 @@ class _KlinePageState extends State<KlinePage> {
       static KLineDataManager manager = KLineDataManager(dataList: dataList,parmManager: KlineParmManager(),printController: KlinePrintController());
       void _incrementCounter() {
 
+        manager.completionAVG();
+        manager.completionLastClose();
+        manager.completionUpDown();
+
         manager.caculateDataList();
 
   }
   Future<String> getDataList()async{
     dataList.clear();
-    dataList = await GlobalRequester.instance.requestKline(curReqYear,'0000001');
-
+    final List<KLineModel>  res = await GlobalRequester.instance.requestKline(curReqYear,'0000001');
+    dataList.addAll(res);
+    print('get data');
     manager.completionAVG();
     manager.completionLastClose();
     manager.completionUpDown();
-
+    manager.caculateDataList();
     return 'true';
   }
   @override
@@ -47,7 +52,9 @@ class _KlinePageState extends State<KlinePage> {
       body:  FutureBuilder(
         future:getDataList(),
         builder: (BuildContext context,AsyncSnapshot snapshot){
+          print(snapshot.data);
           if(snapshot.hasData){
+
             return Container(
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height,
@@ -56,6 +63,7 @@ class _KlinePageState extends State<KlinePage> {
                 colorConfig: new KLineColorConfig(),
                 onLeftScrollEnd: (){
                 curReqYear = (int.parse(curReqYear) - 1).toString();
+
                   GlobalRequester.instance.requestKline(curReqYear,'0000001').then((res){
 
                     for(var i = 0 ; i < res.length;i++){

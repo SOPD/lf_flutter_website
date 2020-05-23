@@ -45,13 +45,11 @@ class GlobalRequester {
        list.add(MarkdownListModel(fileName: jsonList[i],description: "一串说明文字-----TEXT",title: jsonList[i]));
     }
     return list;
-
   }
   Future<List<KLineModel>> requestKline(String year,String code) async {
 
     final List<KLineModel> resultList = [];
     String resp = await html.HttpRequest.getString(host + 'klinedata/'+year + '/' + code + '.json');
-
 
     final jsonMap = json.decode(resp);
     final result = jsonMap['data'];
