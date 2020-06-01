@@ -28,6 +28,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_markdown: ^0.3.4
+  dio: ^3.0.9
   lfklinewidget:
     path: C:\gitProgram\lf_kline_widget
 
@@ -54,8 +55,6 @@ flutter:
     uses-material-design: true
 
     # To add assets to your application, add an assets section, like this:
-    assets:
-      - quote.png
     # assets:
     #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
