@@ -4,7 +4,7 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutterwebtest/Common/models.dart';
 import 'package:flutterwebtest/kline/klinePage.dart';
 import 'package:flutterwebtest/tools/toolsPage.dart';
-
+import 'dart:html' as html;
 class HomeWidget extends StatefulWidget {
   final arguments;
   HomeWidget({this.arguments});
@@ -146,6 +146,9 @@ class FlutterMarkdown extends StatelessWidget {
             selectable: true,
           //  styleSheetTheme: MarkdownStyleSheetBaseTheme.cupertino,
             physics: BouncingScrollPhysics(),
+            onTapLink:(url){
+              html.window.open(url, "");
+            },
           );
         } else {
           return Center(
