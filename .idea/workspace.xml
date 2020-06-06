@@ -9,7 +9,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ab20949-f02f-4679-b97e-3281750554ef" name="Default Changelist" comment="" />
+    <list default="true" id="3ab20949-f02f-4679-b97e-3281750554ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/home/homeWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home/homeWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/network/httpRequester.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/network/httpRequester.dart" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -30,19 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/network/httpRequester.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="1178">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -50,33 +45,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLineColorConfig.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state>
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/flutter/bin/cache/pkg/sky_engine/lib/html/html_dart2js.dart">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLineWidget.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17922" column="14" lean-forward="true" selection-start-line="17922" selection-start-column="14" selection-end-line="17922" selection-end-column="51" />
+            <state relative-caret-position="-76">
+              <caret line="127" column="44" lean-forward="true" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/flutter/bin/cache/pkg/sky_engine/lib/async/future.dart">
+        <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/printCore.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="793" column="37" selection-start-line="793" selection-start-column="37" selection-end-line="793" selection-end-column="37" />
+            <state relative-caret-position="570">
+              <caret line="61" column="93" selection-start-line="61" selection-start-column="93" selection-end-line="61" selection-end-column="93" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/lfklinewidget.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1653" />
           </provider>
         </entry>
       </file>
@@ -88,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/flutter/bin/cache/pkg/sky_engine/lib/async/future_impl.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="665">
               <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
             </state>
           </provider>
@@ -97,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/flutter/packages/flutter_test/lib/src/_goldens_web.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+            <state relative-caret-position="1045">
+              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -106,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/home/homeWidget.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="513">
+              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -118,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/kline/klinePage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="532">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -191,7 +192,6 @@
         <option value="$PROJECT_DIR$/lib/kline/kLineColorConfig.dart" />
         <option value="$PROJECT_DIR$/lib/kline/printCore.dart" />
         <option value="$PROJECT_DIR$/lib/kline/kLineWidget.dart" />
-        <option value="$PROJECT_DIR$/../lf_kline_widget/lib/kLineWidget.dart" />
         <option value="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/lib/kline/klinePage.dart" />
         <option value="$PROJECT_DIR$/../lf_kline_widget/lib/kLineModel.dart" />
@@ -199,16 +199,17 @@
         <option value="$PROJECT_DIR$/../lf_kline_widget/lib/printCore.dart" />
         <option value="$PROJECT_DIR$/build/web/main.dart.js" />
         <option value="$PROJECT_DIR$/web/manifest.json" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
-        <option value="$PROJECT_DIR$/lib/network/httpRequester.dart" />
-        <option value="$PROJECT_DIR$/lib/home/homeWidget.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/home/homeWidget.dart" />
+        <option value="$PROJECT_DIR$/lib/network/httpRequester.dart" />
+        <option value="$PROJECT_DIR$/../lf_kline_widget/lib/kLineWidget.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="417" />
-    <option name="y" value="-20" />
+    <option name="x" value="241" />
+    <option name="y" value="-14" />
     <option name="width" value="1429" />
     <option name="height" value="687" />
   </component>
@@ -217,6 +218,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,49 +236,13 @@
             <path>
               <item name="lf_flutter_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="lf_flutter_website" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lf_flutter_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lf_flutter_website" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lf_flutter_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lf_flutter_website" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="kline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lf_flutter_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lf_flutter_website" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lf_flutter_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lf_flutter_website" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lf_flutter_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lf_flutter_website" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lf_flutter_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lf_flutter_website" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +308,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8379971" visible="true" weight="0.20309168" />
       <window_info id="Captures" order="1" side_tool="true" />
@@ -352,13 +319,13 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" sideWeight="0.16200295" side_tool="true" weight="0.20309168" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" sideWeight="0.4978678" weight="0.3275488" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.4936034" visible="true" weight="0.2407809" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49253732" weight="0.2407809" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.3275488" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49626866" weight="0.21583514" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5063966" side_tool="true" visible="true" weight="0.2407809" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.4946695" visible="true" weight="0.21475054" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5053305" side_tool="true" visible="true" weight="0.21475054" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49573562" weight="0.3253796" />
       <window_info anchor="bottom" id="Find" order="10" sideWeight="0.49946696" weight="0.3286334" />
@@ -427,31 +394,10 @@
     <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLineParmSetWidget.dart">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLineColorConfig.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLineModel.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="64" column="42" lean-forward="true" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/lfklinewidget.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLineWidget.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -483,13 +429,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLinePrintController.dart">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/printCore.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6308">
-          <caret line="339" column="5" selection-start-line="339" selection-start-column="5" selection-end-line="339" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLineParmManager.dart">
       <provider selected="true" editor-type-id="text-editor" />
@@ -594,38 +533,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/flutter/packages/flutter_test/lib/src/_goldens_web.dart">
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+        <state relative-caret-position="608">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/flutter/bin/cache/pkg/sky_engine/lib/async/future.dart">
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="793" column="37" selection-start-line="793" selection-start-column="37" selection-end-line="793" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/flutter/bin/cache/pkg/sky_engine/lib/async/future_impl.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="513">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://D:/flutter/bin/cache/pkg/sky_engine/lib/html/html_dart2js.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17922" column="14" lean-forward="true" selection-start-line="17922" selection-start-column="14" selection-end-line="17922" selection-end-column="51" />
+        <state relative-caret-position="605150">
+          <caret line="31919" column="8" selection-start-line="31919" selection-start-column="8" selection-end-line="31919" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/flutter/bin/cache/pkg/sky_engine/lib/async/future.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14991">
+          <caret line="793" column="37" selection-start-line="793" selection-start-column="37" selection-end-line="793" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Common/models.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/flutter/bin/cache/pkg/sky_engine/lib/async/future_impl.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/flutter/packages/flutter_test/lib/src/_goldens_web.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/home/homeWidget.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/kline/klinePage.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        <state relative-caret-position="532">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -634,41 +603,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/network/httpRequester.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="1178">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Common/models.dart">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/home/homeWidget.dart">
+    <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLineColorConfig.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state>
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+    <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/printCore.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="570">
+          <caret line="61" column="93" selection-start-line="61" selection-start-column="93" selection-end-line="61" selection-end-column="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+    <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/lfklinewidget.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lf_kline_widget/lib/kLineWidget.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="127" column="44" lean-forward="true" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
         </state>
       </provider>
     </entry>

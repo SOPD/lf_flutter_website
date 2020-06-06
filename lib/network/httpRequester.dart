@@ -1,4 +1,7 @@
 import 'dart:html' as html;
+import 'package:flutter/material.dart';
+import 'package:flutterwebtest/kline/klinePage.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutterwebtest/Common/models.dart';
 import 'dart:convert';
 import 'package:lfklinewidget/kLineModel.dart';
@@ -38,6 +41,15 @@ class GlobalRequester {
   }
 
  final  String host =  'http://106.54.214.239/';
+
+  void lunchUrl(String url,context){
+
+   // html.window.open("tel://10086", "");
+    Navigator.push(context, MaterialPageRoute(builder: (context) {
+      return KlinePage();
+    }));
+
+  }
 
   Future<String> requestMarkdown(String filename) async {
 

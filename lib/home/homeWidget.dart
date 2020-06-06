@@ -79,12 +79,13 @@ class _HomeWidgetState extends State<HomeWidget> {
               width: wLeft,
             //  color: Colors.white,
               padding: EdgeInsets.fromLTRB(0, 0, 5, 0),
+              //目录
               child: FileList(
                 onSelectModel: onSelectModel,
                 isSimpleStyle: !isShowList,
               ),
             ),
-            
+            //文章
             Container(
               width: wRight,
               color: Colors.white,
@@ -147,7 +148,7 @@ class FlutterMarkdown extends StatelessWidget {
           //  styleSheetTheme: MarkdownStyleSheetBaseTheme.cupertino,
             physics: BouncingScrollPhysics(),
             onTapLink:(url){
-              html.window.open(url, "");
+              GlobalRequester.instance.lunchUrl(url,context);
             },
           );
         } else {
